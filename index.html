@@ -1,16 +1,90 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVida - por Ana Costa | Nutricionista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
 
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Transforme sua Relação com a Comida e Alcance seus Objetivos.</h1>
+            <p>Planos alimentares personalizados, focados em sua saúde e bem-estar, sem dietas restritivas.</p>
+            <a href="#contato" class="cta-button">Quero Agendar uma Avaliação</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="section-container about-section">
+            <div class="about-content">
+                <h2>Prazer, sou Ana Costa, sua futura nutricionista.</h2>
+                <p>Formada pela Universidade Federal de Nutrição e apaixonada por transformar vidas através da alimentação. Minha missão é te mostrar que comer bem pode ser prazeroso e descomplicado. Juntos, vamos construir um caminho de saúde e bem-estar que respeita seu corpo e sua rotina.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/300" alt="Foto da nutricionista Ana Costa">
+            </div>
+        </section>
+
+        <section id="servicos" class="section-container services-section">
+            <h2>Como posso te ajudar?</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Reeducação Alimentar</h3>
+                    <p>Aprenda a comer de forma intuitiva e saudável, fazendo as pazes com a balança e com você mesma.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Nutrição Esportiva</h3>
+                    <p>Potencialize seus treinos e resultados com um plano alimentar focado na sua performance e recuperação.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Acompanhamento para Patologias</h3>
+                    <p>Planos específicos para controle de diabetes, hipertensão, colesterol alto e outras condições de saúde.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section-container benefits-section">
+            <h2>Mais que uma dieta, um estilo de vida.</h2>
+            <ul>
+                <li>✔️ **Totalmente Personalizado:** Seu plano é único, criado com base nos seus objetivos e rotina.</li>
+                <li>✔️ **Acompanhamento Contínuo:** Suporte via WhatsApp para tirar dúvidas e te manter motivado(a).</li>
+                <li>✔️ **Resultados Sustentáveis:** Foco em criar hábitos saudáveis que você levará para a vida toda.</li>
+            </ul>
+             <div class="testimonials">
+                <h3>O que meus pacientes dizem</h3>
+                <div class="testimonial">
+                    <p>"Com a ajuda da Ana, perdi 10kg sem sofrimento! Recomendo demais."</p>
+                    <strong>- Maria S.</strong>
+                </div>
+                 <div class="testimonial">
+                    <p>"Finalmente consegui melhorar minha performance na corrida. O plano fez toda a diferença!"</p>
+                    <strong>- João P.</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section-container contact-section">
+            <h2>Vamos começar a sua transformação?</h2>
+            <p>Preencha o formulário abaixo e entrarei em contato para agendarmos sua primeira avaliação.</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Melhor E-mail" required>
+                <input type="tel" name="phone" placeholder="Seu WhatsApp" required>
+                <textarea name="message" rows="4" placeholder="Deixe uma mensagem (opcional)"></textarea>
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 NutriVida - por Ana Costa. Todos os direitos reservados.</p>
+        <p>Contato: (XX) 99999-8888 | ana.costa@nutrivida.com</p>
+    </footer>
+
+</body>
 </html>
